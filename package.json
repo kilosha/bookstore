@@ -16,7 +16,8 @@
   },
   "scripts": {
     "start": "cds run",
-    "watch-fiori-elements": "cds watch --open fiori-elements/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-fiori-elements": "cds watch --open fiori-elements/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-freestyle": "cds watch --open freestyle/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "engines": {
     "node": "^16.15"
@@ -57,6 +58,7 @@
     }
   },
   "sapux": [
-    "app/fiori-elements"
+    "app/fiori-elements",
+    "app/freestyle"
   ]
 }

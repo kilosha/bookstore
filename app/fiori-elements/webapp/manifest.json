@@ -106,6 +106,9 @@
               "name": "sap.suite.ui.generic.template.ListReport",
               "list": true,
               "settings": {
+                "dataLoadSettings": {
+                    "loadDataOnAppLaunch": "always"
+                },
                 "condensedTableLayout": true,
                 "smartVariantManagement": true,
                 "enableTableFilterInPageVariant": true,
